@@ -1,0 +1,93 @@
+// Basic color variables
+$veryLightGray	  : #dcdcdc;
+
+
+$grayishRed       : #bc8f8f;
+$ghostWhite       : #f8f8ff;
+$darkOrange       : #a6b964;
+$vivdOrange       : #ff7f24;
+$grayishOrange    : #8b7d6b;
+$strongOrange     : #d2691e;
+$darkGray-light   : #888888;
+$darkGray      	  : #969696;
+$darkRed	   	    : #800000;
+$darkModeratedRed : #8b3a3a;
+$paleOrange		    : #FFE4C4;
+$strongCyan 	    : #03b4c8;
+$darkerOrange	    : #8b7355;
+$gray 			      : #808080;
+$white 			      : #ffffff;
+$black			      : #000000;
+ 
+//Usable variables
+$color-body 						: $veryLightGray;
+$color-h2							: $strongOrange;
+$color-h2-shadow					: $darkGray;
+$color-dial-email					: $darkRed;
+$color-frame						: $white;
+$color-photo-border 				: $gray;
+$color-primary-content-p    		: $grayishRed;
+$color-secondary-background 		: $ghostWhite;
+$color-secondary-content-p			: $darkOrange;
+$color-secondary-content-h3			: $vivdOrange;
+$color-teritiary-content-p  		: $grayishOrange;
+$color-footer-background			: $paleOrange;
+$color-footer-a 					: $darkModeratedRed;
+$color-header-background			: $paleOrange;
+$color-header-a 					: $darkerOrange;
+$color-header-a-hover 				: $strongCyan;
+$color-mobile-header-border 		: $white;
+$color-mobile-header-background 	: $white;
+
+// Font-families  
+
+$stack-sans-serif-body   :  Helvetica, Arial, sans-serif;
+$stack-helvetica-body  	 : 'Helvetica Neue', $stack-sans-serif-body;
+$stack-monospace  	 	 :  monospace;
+$stack-fixed-monospace-h :  Fixed, $stack-monospace;
+$stack-cursive-a	     :  cursive;
+$stack-sans-p      		 :  Comic Sans MS, cursive;
+$stack-comic-sans-p		 : 'Comic Sans', $stack-sans-p;
+
+// Font-sizes // Line Height = lh
+$font-size-line-h					: 1em/1.5;
+$font-size-iconButton				: .6em;
+$font-size-top 			 			: .7em;
+$font-size-secondary-content-p 		: .9em;
+$font-size-secondary-content-h3		: 1.1em;
+$font-size-main-name				: 1.35em;
+$font-size-main-a 					: .95em;
+$font-size-main-nav-mobile			: .75em;
+$font-size-main-name-mobile			: 1.2em;
+$font-size-sub-name					: 1.1em;
+$font-size-main-nav-tablet			: .9em;
+$font-size-main-name-tablet			: 1.4em;
+$font-size-sub-nav-tablet			: 1em;
+$font-size-sub-name-tablet			: 1.2em;
+
+// Paths
+$path-body-background-img : '../img';
+
+// Width, Height
+$width-secondary-content 		: 90%;
+$width-secondary-conntent-p 	: 90%;
+
+//Flex Directions 
+$column 									: column;
+$column-r									: column-reverse;
+
+$flex-direction-prim-sec-tert-cont 			: $column;
+$flex-drection-main-header-mobile  			: $column;
+$flex-drection-main-nav-mobile	   			: $column;
+
+
+$row							   			: row;
+$row-r										: row-reverse;
+
+$flex-direction-primary-content-tab			: $row-r;
+$flex-direction-secondary-content-tab		: $row;
+$flex-direction-main-nav-tab				: $row-r;
+$flex-direction-sub-name-tab				: $row;
+
+
+$flex-direction-main-header-desktop			: $row;

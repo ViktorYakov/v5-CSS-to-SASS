@@ -1,0 +1,14 @@
+.button {
+    overflow: visible;
+    width: 20%;
+    border-radius: 20%;
+    font-weight: bolder;
+    font-size: $font-size-iconButton;
+    font-family: $stack-comic-sans-p;
+    color: rgba($strongOrange, 0.9);
+    text-shadow: 3px -2px 6px $darkGray;
+    margin-top: 25px;
+    @include respond-to(tablet) {
+    	display: none;
+    }
+} 

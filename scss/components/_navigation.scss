@@ -1,0 +1,94 @@
+.main {
+	&-header {
+		@include respond-to(mobile) {
+			flex-direction: $flex-drection-main-header-mobile;
+			align-items: center;
+		}
+
+		@include respond-to(tablet) {
+			flex-direction: column;
+			align-items: center;
+		}
+
+		@include respond-to(desktop) {
+			flex-direction: $flex-direction-main-header-desktop;
+		}
+	}
+
+	&-header a {
+		color: rgba($color-header-a, .9);
+	}
+
+	&-nav {
+		@include respond-to(mobile) {
+			flex-direction: column-reverse;
+			width: 90%;
+			font-size: $font-size-main-nav-mobile;
+			font-weight: bolder;
+			display: flex;
+		} 
+
+		@include respond-to(tablet) {
+			flex-direction: $flex-direction-main-nav-tab;
+			width: 29.9%;
+			font-size: $font-size-main-nav-tablet;
+			font-weight: bolder;
+			margin: auto;
+			display: flex;
+		}
+
+		@include respond-to(desktop) {
+			width: 63%;
+		}
+	}
+
+	&-name {
+		font-size: $font-size-main-name;
+		@extend %margin;
+		font-weight: bolder;
+		text-shadow: 5px -2px 6px rgba($color-h2-shadow, .7);
+
+		@include respond-to(mobile) {
+			font-size: $font-size-main-name-mobile;
+		}
+
+		@include respond-to(tablet) {
+			font-size: $font-size-main-name-tablet;
+		}
+
+		@include respond-to(desktop) {
+			margin-left: 80px
+		}
+
+	}
+
+	&-nav li {
+		@include respond-to(mobile) {
+			border: 1px solid $color-mobile-header-border;
+			background-color: $color-mobile-header-background;
+			margin: 1.5px;
+		}
+
+		@include respond-to(tablet) {
+			border: none;
+			background-color: inherit;
+		}
+	}
+
+	&-name a,
+	&-nav a {
+		@extend %textAlign;
+		display: block;
+		padding: 5px 10px;
+	}
+
+	&-nav a {
+		font-size: $font-size-main-a;
+		text-transform: uppercase;
+	}
+
+	&-nav a:hover {
+		color: rgba($color-header-a-hover, 1);
+	}
+
+}

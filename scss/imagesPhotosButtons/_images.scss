@@ -1,0 +1,17 @@
+/*Photos/image -----------------*/
+@include respond-to(tablet) {
+	@include imgWidth(50%);
+}
+
+@include respond-to(desktop) {
+	@include imgWidth(33.3%);
+}
+
+img {
+	width: 100%;
+	@extend %padding;
+}
+
+.icon-nav {
+	width: 70%;
+}

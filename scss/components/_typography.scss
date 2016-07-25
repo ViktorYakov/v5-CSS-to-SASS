@@ -1,0 +1,42 @@
+.text {
+	align-self: center;
+
+	@include respond-to(mobile) {
+		width: 80%;
+	}
+
+	@include respond-to(tablet) {
+		width: 40%;
+	}
+}
+
+h1,
+h2,
+h3 {
+	font-family: $stack-fixed-monospace-h;
+}
+
+.h2 {
+	@extend %textAlign;
+	color: rgba($color-h2, .9);
+	text-shadow: 3px -2px 6px rgba($color-h2-shadow, 1);
+}
+
+.dial,
+.email {
+	text-shadow: 2px 0px 3px $color-dial-email;
+}
+
+.contact {
+	color: rgba($color-h2, .9);
+	text-shadow: 3px -2px 6px rgba($color-h2-shadow, 1);
+}
+
+.contact {
+	@extend %marginAuto;
+	margin-top: 30px;
+}
+
+p {
+	font-family: $stack-comic-sans-p;
+}

@@ -1,0 +1,257 @@
+
+/* Table Styles -----------------*/
+
+/*table {
+  max-width: 700px;
+  margin: 10px auto;
+  float: right;
+  position: absolute;
+}*/
+
+.table1 {
+  max-width: 700px;
+  position: absolute;
+  top: 150px;
+  bottom: 10px;
+  right: 10px;
+  left: 5px;
+}
+
+.table2 {
+  width: 700px;
+  position: absolute;
+  top: 170px;
+  bottom:500px;
+  right: 5px;
+  left: 1200px;
+}
+
+.table3 {
+  width: 700px;
+  position: absolute;
+  top: 470px;
+  bottom: 10px;
+  right: 10px;
+  left: 1200px;
+}
+
+.table4 {
+  width: 100px;
+  position: absolute;
+  top: 300px;
+  bottom: 10px;
+  right: 10px;
+  left: 720px;
+}
+
+caption {
+  font-size: 1.6em;
+  font-weight: 400;
+  padding: 10px 0;
+  color: #7093DB;
+  text-shadow: 3px -1px 2px rgba(150, 150, 150, 1);
+}
+
+.table1 thead th  {
+	background: #70DB93;
+}
+
+.table2 thead th  {
+	background: #76EEC6;
+}
+
+.table3 thead th  {
+	background: #458B74;
+}
+
+.table4 thead th  {
+	background: #008080;
+}
+
+thead th {
+  border: 1px solid;
+  font-size: 100%;
+  font-weight: 400;
+  /*background: #8a97a0;*/
+  color: #FFF;
+}
+
+tr {
+  background: #AFEEEE;
+  border-bottom: 1px solid #FFF;
+  margin-bottom: 5px;
+}
+
+tr:nth-child(even) {
+  background: #E0EEEE;
+}
+
+th, td {
+  border: 1px solid;
+  font-size: 100%;
+  text-align: left;
+  padding: 20px;
+  font-weight: 300;
+}
+
+tr {
+  width: 500px;
+}
+
+tfoot tr {
+  font-size: 100%;
+  background: none;
+}
+
+tfoot td {
+  border: none;
+  padding: 10px 2px;
+  font-size: 0.8em;
+  font-style: italic;
+  color: #8a97a0;
+}
+
+.wrapper {
+	width: 100%;
+	height: 100%;
+}
+
+.portfooter {
+	max-width: 100%;
+	position: absolute;
+	top: 850px;
+	bottom: 10px;
+	left: 10px;
+	right: 10px;
+	padding-right: 200px;
+	padding-left: 300px;
+}
+
+/* Table Style -----------------*/
+
+/***********---------------**********/
+/* Navigation -----------------*/
+
+.main-header {
+  margin: auto;
+  padding: 55px 15px 24px 30px;
+  padding-top: 55px;
+  padding-left: 30px;
+  padding-right: 15px;
+  max-width: 960px;
+  text-align: center;
+}
+
+.name {
+  font-size: 1.25em;
+  display: inline-block;
+}
+
+.main-nav li {
+  text-align: center;
+  margin: 6px 0 6px 0;
+  padding: 0;
+}
+
+.main-nav a {
+  font-size: .95em;
+  text-transform: uppercase;
+  padding-left: 0; 
+}
+
+/* Navigation -----------------*/
+
+/***********---------------**********/
+
+/***********---------------**********/
+
+/*Footer Navigation -----------------*/
+
+.sub-name {
+  box-sizing: border-box;
+  margin: 6px 0 6px 0;
+  padding-top: 10px;
+  font-size: .95em;
+  display: inline-block;
+  float: left;
+}
+
+.sub-name,
+.sub-nav li {
+  text-align: center;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.sub-nav {
+  box-sizing: border-box;
+  font-size: .70em;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+/*Footer Navigation -----------------*/
+/* Float Clearfix -----------------*/
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* ================================*/
+
+.top {
+  visibility: visible;
+  position: absolute;
+  display: inline;
+  padding-top: 17px;
+  width: 30%;
+  top: 1px;
+  bottom: 1px;
+  left: 67%;
+  right: 1px;
+  z-index: 1;
+  font-weight: bolder;
+  font-size: .7em;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px #000;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body  {
+  background-color: #dcdcdc;
+  margin: 0;
+  font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+footer {
+   height: 76px;
+   margin: 0;
+}
+
+h3 {
+  margin: 0;
+  padding-bottom: 30px;
+}

@@ -1,0 +1,30 @@
+/*Photos/image -----------------*/
+.frame {
+	@extend %textAlign;
+	background: $color-frame;
+	@include sizes(60%, 100px, auto, 25px, 25px);
+
+	@include respond-to(tablet) {
+		@include sizes(35%, 130px, 0, 0, 5px);
+	}
+
+	@include respond-to(desktop) {
+		@include sizes(29%, 190px, 0, 0, 5px);
+	}
+}
+
+ .photo {
+		align-items: center;
+		border: 1px solid $color-photo-border;
+		box-shadow: 10px 10px 5px #$darkGray-light;
+		border-radius: 50%;
+		@include sizes(50%, 75px, auto, 10px, 1px);
+
+		@include respond-to(tablet) {
+			@include sizes(50%, 100px, null, 12px);
+		}
+
+		@include respond-to(desktop) {
+			@include sizes(50%, 110px, 0, 35px);
+		}
+}

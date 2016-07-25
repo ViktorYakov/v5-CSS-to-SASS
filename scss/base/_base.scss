@@ -1,0 +1,46 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body  {
+	@extend %margin;
+	font: $font-size-line-h $stack-helvetica-body;
+	background: url('#{$path-body-background-img}/background.jpg') no-repeat;
+	background-size: cover;
+}
+
+ul {
+	list-style-type: none;
+	@extend %margin;
+	@extend %padding;
+}
+
+a {
+	text-decoration: none;
+	@extend %padding;
+	font-family: $stack-cursive-a;
+}
+
+.top {
+	width: 30%;
+	@extend %marginAuto;
+	text-align: right;
+	font-weight: bolder;
+	font-size: $font-size-top;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px #000;
+
+	@include respond-to(mobile) {
+		visibility: visible;
+	}
+
+	@include respond-to(tablet) {
+		visibility: hidden;
+		width: 0%;
+	}
+
+	@include respond-to(tablet){
+		visibility: hidden;
+	}
+}
